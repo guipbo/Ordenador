@@ -20,46 +20,6 @@ namespace Ordenador
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void fontDialog1_Apply(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void maskedTextBox1_MaskInputRejected(object sender, MaskInputRejectedEventArgs e)
-        {
-
-        }
-
-        private void button2_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tbDigite_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void tbDigite_KeyPress(object sender, KeyPressEventArgs e)
         {
             if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
@@ -72,11 +32,6 @@ namespace Ordenador
             
             errorProvider1.SetError(lErro, "");
             lErro.Text = "";
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
         }
 
         private void bConfirmar_Click(object sender, EventArgs e)
@@ -113,11 +68,6 @@ namespace Ordenador
 
             tbDigite.Clear();
             tbDigite.Focus();
-        }
-
-        private void tbDigite_KeyDown(object sender, KeyEventArgs e)
-        {
-
         }
 
         private void bLimpar_Click(object sender, EventArgs e)

@@ -81,7 +81,6 @@ namespace Ordenador
             this.lLista.Size = new System.Drawing.Size(144, 20);
             this.lLista.TabIndex = 5;
             this.lLista.Text = "Números Digitados";
-            this.lLista.Click += new System.EventHandler(this.label2_Click);
             // 
             // lSoma
             // 
@@ -92,7 +91,6 @@ namespace Ordenador
             this.lSoma.Size = new System.Drawing.Size(51, 20);
             this.lSoma.TabIndex = 6;
             this.lSoma.Text = "Soma";
-            this.lSoma.Click += new System.EventHandler(this.label3_Click);
             // 
             // tbSoma
             // 
@@ -129,7 +127,6 @@ namespace Ordenador
             this.tbDigite.Name = "tbDigite";
             this.tbDigite.Size = new System.Drawing.Size(114, 26);
             this.tbDigite.TabIndex = 0;
-            this.tbDigite.TextChanged += new System.EventHandler(this.tbDigite_TextChanged);
             this.tbDigite.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.tbDigite_KeyPress);
             // 
             // lErro
@@ -140,7 +137,6 @@ namespace Ordenador
             this.lErro.Name = "lErro";
             this.lErro.Size = new System.Drawing.Size(0, 20);
             this.lErro.TabIndex = 8;
-            this.lErro.Click += new System.EventHandler(this.label1_Click);
             // 
             // errorProvider1
             // 
@@ -178,7 +174,6 @@ namespace Ordenador
             this.Controls.Add(this.bConfirmar);
             this.Name = "fOrdenador";
             this.Text = "Ordenador";
-            this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.errorProvider1)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
